@@ -1,0 +1,18 @@
+    body {
+            background-color: #4d606e;
+            color: #d3d4d8;
+            letter-spacing: 1px;
+            font-family: Helvetica, sans-serif;
+        }
+
+    hr{
+        border-style: none;
+        border-top: 10px dotted #d3d4d8;
+        width: 10%;
+    }
+
+    h1, h3{
+        color: #3fbac2;
+    }
+
+<!---- https://colorhunt.co/palette/13712----->
