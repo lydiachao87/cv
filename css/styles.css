@@ -147,7 +147,7 @@ h2, h3, h4, h5, h6, p{
     }
 
     .scroll{
-    max-height: 140px;
+    max-height: 135px;
     overflow-y: auto;
     }
 
