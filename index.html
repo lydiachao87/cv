@@ -3,92 +3,304 @@
 <head>
     <meta charset="UTF-8">
     <title>Lydia's Personal Site</title>
+
+    <!--    Bootstrap CSS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+<!--JS Bootstrap Bundle-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+<!--    Custom CSS -->
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="icon" href="faviconLC.ico">
+    <link rel="icon" href="images/faviconLC.ico">
+
+<!--    Google Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Oxygen&family=Parisienne&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--  #Font Awesome-->
+  <script src="https://kit.fontawesome.com/20f153e26c.js" crossorigin="anonymous"></script>
+
 </head>
+
 <body>
-<div class="top-container">
+<section id="title">
 
-    <h1>Hi! I'm Lydia.</h1>
+<!--        Navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">Lydia</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
 
-    <img class="profile" src="images/lydiachao.png" alt="Lydia profile picture"><br>
+    <div class="collapse navbar-collapse" id="navbarToggler">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#about-me">About Me</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#education">Education</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#journey">Journey</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact-me">Contact</a>
+            </li>
+        </ul>
+            </div>
+        </nav>
 
-    <p class="description">HR Consultant, & Python and Flutter Developer<br><br>
-        <em> A curious and continuously growing Professional with a
-            passion in data analyses, storytelling, organizational behaviour, and people
-            management.
-        </em></p>
+<!--Title section -->
+    <div class="card bg-dark">
+
+        <img class="card-img img-fluid" src="images/pat-whelen-unsplash.jpg" alt="Responsive image">
+            <span class="credit">Photo by Pat Whelen on Unsplash</span>
+        <div class="card-img-overlay">
+            <h1 class="welcome"><strong>Welcome</strong></h1>
+        </div>
+    </div>
+
+</section>
+
+<!--About Me-->
+
+<section id="about-me">
+    <div class="card bg-light">
+        <img class="card-img img-fluid" src="images/nadiya-ploschenko-unsplash.jpg" alt="Responsive image">
+        <span class="credit">Photo by Nadiya Ploschenko on Unsplash</span>
+        <div class="card-img-overlay">
+            <h1 class="question-title card-title"><em>How Can I Help You?</em> </h1>
+         <img class="profile card-title" src="images/lydiachao.png" alt="Lydia profile picture"><br><br>
+            <div class="scroll">
+            <h5 class="card-text about-me-text"><strong>I'm a HR Consultant, & Python and Flutter Developer.</strong></h5><br>
+        <p class="about-me-text">
+           <em> I'm a curious and continuously growing
+               Professional with a passion in data analyses, storytelling,
+               organizational behaviour, and people management. </em>
+        </p><br><br>
+            <p class="about-me-text">In the past decade, I have had the
+                opportunity to work in various industries, including academic
+                research institutions, international technology corporations,
+            not-for-profit as well as for-profit government organizations, in
+                both unionized and non-unionized environments. <br><br>
+            My exceptional ability to cultivate meaningful and trusting
+                working relationships in each organization I've been in
+                has enabled me to become a trusted first
+                point of contact for many employees and leaders,
+                especially with teammates at our satellite offices across the
+                country. <br><br>
+            Over the last 3 years, I continued developing my
+            communication and leadership skills through the Toastmasters
+                education program, where I was also given numerous chances to lead
+                and train different leadership teams in BC. In recent months,
+                I have immersed myself in learning how to do more interesting data
+                analyses using the Python programming language, and how to create
+                beautiful and functional mobile applications
+                with Flutter, using the Dart programming language. <br><br>
+            I would be more than happy to chat with you to see how we can work
+                together to further leverage and enhance your teams' untapped
+                potentials.
+            </p>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--Education-->
+
+<section id="education">
+<div class="card bg-dark">
+        <img class="card-img img-fluid" src="images/jordan-wozniak-unsplash.jpg" alt="Responsive image">
+        <span class="credit">Photo by Jordan Wozniak on Unsplash</span>
+        <div class="card-img-overlay">
+            <h1>Education</h1>
+
+            <div id="carouselControls" class="carousel slide" data-ride="false" data-pause="hover">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <h5 class="education-text card-title">Nov 2020 to
+                            Present</h5>
+                        <p class="education-text card-text">The Complete
+                            Python Pro Bootcamp for 2021</p>
+                        <p class="education-text card-text">Udemy (online)</p>
+                    </div>
+                    <div class="carousel-item">
+                        <h5 class="education-text card-title">Dec 2020</h5>
+                        <p class="education-text card-text">Aboriginal Worldviews
+                            and Education</p>
+                        <p class="education-text card-text">Coursera (online)
+                            - University of Toronto</p>
+                        <p><em><a href="https://www.coursera.org/account/accomplishments/certificate/3549V75PUWAA">
+                Coursera Course Certificate</a>
+            </em></p>
+                    </div>
+                    <div class="carousel-item">
+                        <h5 class="education-text card-title">Dec 2020</h5>
+                        <p class="education-text card-text">Indigenous Canada</p>
+                        <p class="education-text card-text">Coursera (online)
+                            - University of Alberta</p>
+                        <p><em><a href="https://www.coursera.org/account/accomplishments/certificate/MWBJ2N9FZ389">
+                Coursera Course Certificate</a>
+            </em></p>
+                    </div>
+                    <div class="carousel-item">
+                        <h5 class="education-text card-title">Nov 2020</h5>
+                        <p class="education-text card-text">The Complete
+                            Flutter Development Bootcamp Using Dart</p>
+                        <p class="education-text card-text">London App Brewery (online)</p>
+                    </div>
+                    <div class="carousel-item">
+                        <h5 class="education-text card-title">Nov 2020</h5>
+                        <p class="education-text card-text">Chartered
+                            Professional in Human Resources (CPHR)</p>
+                    </div>
+                    <div class="carousel-item">
+                        <h5 class="education-text card-title">2017 to Present</h5>
+                        <p class="education-text card-text">Toastmasters,
+                            District 96 (BC & Yukon)</p>
+                    </div>
+                    <div class="carousel-item">
+                        <h5 class="education-text card-title">2015</h5>
+                        <p class="education-text card-text">Dale Carnegie:
+                        Effective Communications and Human Relations</p>
+                    </div>
+                    <div class="carousel-item">
+                        <h5 class="education-text card-title">2013</h5>
+                        <p class="education-text card-text">Master of
+                        Business Administration (MBA)</p>
+                        <p class="education-text card-text"><em>Simon Fraser
+                        University - Beedie School of Business</em></p>
+                    </div>
+                    <div class="carousel-item">
+                        <h5 class="education-text card-title">2011</h5>
+                        <p class="education-text card-text">Bachelor of Science
+                        (Major in Microbiology & Immunology)</p>
+                        <p class="education-text card-text"><em>University
+                        of British Columbia </em></p>
+                    </div>
+
+                </div>
+                <a class="carousel-control-prev" href="#carouselControls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carouselControls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+
+            </div>
+        </div>
 </div>
-<h2 class="techskills">Technical Skills</h2>
+</section>
 
-<div class="row">
+<!--Journey-->
 
-    <div class="column">
-        <img class="coding" src="images/coding.png" alt="coding picture">
-        <ul class="listwords1">
-           <li>Python</li>
-            <li>Flutter</li>
-            <li>HTML</li>
-            <li>CSS</li>
-        </ul>
+<section id="journey">
+<div class="card bg-dark">
+        <img class="img-fluid" src="images/nick-chung-unsplash.jpg" alt="Responsive image">
+        <span class="credit">Photo by Nick Chung on Unsplash</span>
+    <div class="card-img-overlay">
+        <h1 class="journey">Journey</h1>
+        <div class="row scroll">
+
+        <div class="work-experience-text col-lg-6 offset-lg-3">
+        Currently<br>
+        HR Consultant & Python and Flutter Developer
+        </div><br>
+
+        <div class="work-experience-text col-lg-6">
+            2018 - present<br>
+            Operations Manager at <em>Reservax Innovations</em>
+        </div><br>
+
+            <div class="work-experience-text col-lg-6 offset-lg-3">
+            2019 - 2020<br>
+                HR Generalist (Mat Leave Coverage) at <em>posAbilities
+                Association of BC</em>
+        </div><br>
+
+            <div class="work-experience-text col-lg-6 offset-lg-6">
+            2017 - 2019<br>
+                HR Associate (Mat Leave Coverage) at <em>Vancouver Community
+                College</em>
+        </div><br>
+
+            <div class="work-experience-text col-lg-6 offset-lg-6">
+            2015 - 2017<br>
+            Sales Order Administrator at <em>BSM Technologies (which was
+                acquired by GEOTAB)</em>
+        </div><br>
+
+            <div class="work-experience-text col-lg-6 offset-lg-4">
+            2014 - 2015<br>
+            Office and HR Administrator at <em>Webtech Wireless (which merged
+                with BSM Wireless to create BSM Technologies)</em>
+        </div><br>
+
+            <div class="work-experience-text col-lg-6 offset-lg-3">
+            2013 - 2014<br>
+            HR Administrator at <em>MacDonald, Dettwiler & Associates Ltd.</em>
+        </div><br>
+
+            <div class="work-experience-text col-lg-6">
+            2013<br>
+            HR Assistant (Internship) at <em>Four Seasons Resort Whistler &
+                Four Seasons Hotel Vancouver</em>
+        </div><br>
+
+            <div class="work-experience-text col-lg-6 offset-lg-3">
+            2009 - 2011<br>
+            Research Assistant at <em>BC Cancer Research Centre</em>
+        </div><br>
+
+            <div class="work-experience-text col-lg-6 offset-lg-6">
+            2007 - 2009<br>
+            Research Assistant at <em>Vancouver Prostate Centre at Vancouver
+                General Hospital</em>
+        </div><br>
+
+            </div>
+
+
     </div>
-    <div class="column">
-        <img class="office" src="images/office.png" alt="MS office picture">
-        <ul>
-           <li>Word</li>
-            <li>Excel</li>
-            <li>PowerPoint</li>
-            <li>Outlook</li>
-            <li>Microsoft Teams</li>
-        </ul>
+</div>
+
+</section>
+
+<!--Contact-->
+
+<section id="contact-me">
+<div class="card bg-dark">
+        <img class="img-fluid" src="images/nicholas-sampson-unsplash.jpg" alt="Responsive image">
+        <span class="credit">Photo by Nicholas Sampson on Unsplash</span>
+            <p class="copyright">© 2021 Lydia Chao</p>
+
+    <div class="card-img-overlay">
+
+        <h2 class="cta-text"><strong>Need help with your projects? Let's chat! <br>
+            Contact me for a quote.</strong></h2>
+
+        <a class="contact-link" href="https://www.linkedin.com/in/lydiachao-mba-cphr/"><i class="social fab fa-linkedin fa-3x"></i></a>
+
+        <a class="contact-link" href="mailto:ellesi3838@yahoo.com"><i class="social fas fa-envelope fa-3x"></i></a>
+
+        <h1 class="contact-text">Thanks for stopping by!</h1>
+
+
     </div>
 
-    <div class="column">
-        <img class="HR" src="images/human-resources.png" alt="HR picture">
-        <ul>
-            <li>Banner 9</li>
-            <li>Kronos</li>
-            <li>Workday</li>
-            <li>ComVida</li>
-            <li>Oasys</li>
-            <li>PeopleAdmin</li>
-            <li>Prezi</li>
-            <li>Mail Chimp</li>
-        </ul>
-    </div>
-    <div class="column">
-        <img class="videoconference" src="images/videoconference.png" alt="videoconference picture">
-        <ul>
-            <li>Salesforce</li>
-            <li>NetSuite</li>
-           <li>Zoom Platform</li>
-            <li>GoToMeeting</li>
-            <li>Skype</li>
-            <li>Google Meet</li>
-        </ul>
-    </div>
 
 </div>
-    <div class="indexpagelinks">
-        <br>
-        <a href="About Me.html">About Me</a>
-        <a href="Education.html">Education</a>
-        <a href="work_experience.html">Work Experience</a>
-        <br><br>
 
-        <div class="contact-me">
-        <h2>Get In Touch</h2>
-        <a class="btn" href="mailto:ellesi3838@yahoo.com">CONTACT ME</a>
-        </div>
-        <div class="bottom-container">
-          <a class="footer-link" href="https://www.linkedin.com/in/lydiachao-mba-cphr/">LinkedIn</a>
-          <p class="copyright">© 2021 Lydia Chao</p>
-        </div>
-        </div>
+</section>
+
 
 </body>
+
 </html>
