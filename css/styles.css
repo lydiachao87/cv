@@ -139,6 +139,12 @@ h2, h3, h4, h5, h6, p{
 }
 
 @media (max-width: 600px){
+    
+    .profile {
+    width:125px;
+    height:125px;
+    margin: 0 auto;
+    }
 
     .scroll{
     max-height: 100px;
