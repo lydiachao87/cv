@@ -110,6 +110,10 @@ h2, h3, h4, h5, h6, p{
 
 @media (max-width: 750px){
 
+    h1{
+        font-size: 55px;
+    }
+
     .scroll{
     max-height: 300px;
     overflow-y: auto;
@@ -123,9 +127,8 @@ h2, h3, h4, h5, h6, p{
 
 @media (max-width: 675px){
 
-    .scroll{
-    max-height: 225px;
-    overflow-y: auto;
+    .card-img-overlay{
+    top:2%;
     }
 
     a{
@@ -136,10 +139,44 @@ h2, h3, h4, h5, h6, p{
         padding: 0 5%;
     }
 
+    .about-me-text{
+        font-size: 1rem;
+    }
+
+    .education-text{
+        font-size: 0.85rem;
+    }
+
+    a{
+        font-size: 0.75rem;
+    }
+
+    .work-experience-text{
+        font-size: 1rem;
+
+    }
+
+    .cta-text{
+        margin-top:20%;
+        font-size: 1.25rem;
+    }
+
+    .credit{
+    font-size: 5px;
+    }
+
+    .copyright{
+        font-size: 0.5rem;
+    }
+
 }
 
 @media (max-width: 600px){
-    
+
+    h1{
+        font-size: 40px;
+    }
+
     .profile {
     width:125px;
     height:125px;
@@ -147,7 +184,7 @@ h2, h3, h4, h5, h6, p{
     }
 
     .scroll{
-    max-height: 135px;
+    max-height: 200px;
     overflow-y: auto;
     }
 
