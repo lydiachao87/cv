@@ -64,6 +64,14 @@ h2, h3, h4, h5, h6, p{
     color: #f5f5f5;
 }
 
+.education-heading{
+    margin-bottom: 40px;
+}
+
+.journey{
+    margin-bottom: 40px;
+}
+
 .work-experience-text{
     color: #fff;
     margin-top: 25px;
@@ -120,12 +128,22 @@ h2, h3, h4, h5, h6, p{
     }
 
     .journey{
-        color: #fff;
+        color: #fff
+    }
+
+    #carouselControls {
+        background-color: rgba(0,0,0,0.5);
+        border-radius: 20px;
+        padding: 10px;
     }
 
 }
 
 @media (max-width: 675px){
+
+    .welcome{
+        padding-top: 20px;
+    }
 
     .card-img-overlay{
     top:2%;
@@ -191,6 +209,7 @@ h2, h3, h4, h5, h6, p{
     .education-text{
     color: #fff;
     }
+
 }
 
 <!---- https://colorhunt.co/palette/13712----->
