@@ -131,12 +131,6 @@ h2, h3, h4, h5, h6, p{
         color: #fff
     }
 
-    #carouselControls {
-        background-color: rgba(0,0,0,0.5);
-        border-radius: 20px;
-        padding: 10px;
-    }
-
 }
 
 @media (max-width: 675px){
@@ -162,7 +156,13 @@ h2, h3, h4, h5, h6, p{
     }
 
     .education-text{
-        font-size: 0.85rem;
+        color: #fff;
+    }
+
+    #carouselControls {
+        background-color: rgba(0,0,0,0.5);
+        border-radius: 20px;
+        padding: 10px;
     }
 
     a{
@@ -171,7 +171,6 @@ h2, h3, h4, h5, h6, p{
 
     .work-experience-text{
         font-size: 1rem;
-
     }
 
     .cta-text{
@@ -180,13 +179,12 @@ h2, h3, h4, h5, h6, p{
     }
 
     .credit{
-    font-size: 5px;
+        font-size: 5px;
     }
 
     .copyright{
         font-size: 0.5rem;
     }
-
 }
 
 @media (max-width: 600px){
@@ -196,18 +194,18 @@ h2, h3, h4, h5, h6, p{
     }
 
     .profile {
-    width:125px;
-    height:125px;
-    margin: 0 auto;
+        width:125px;
+        height:125px;
+        margin: 0 auto;
     }
 
     .scroll{
-    max-height: 200px;
-    overflow-y: auto;
+        max-height: 200px;
+        overflow-y: auto;
     }
 
     .education-text{
-    color: #fff;
+        font-size: 0.85rem;
     }
 
 }
