@@ -83,6 +83,10 @@ h2, h3, h4, h5, h6, p{
     color: #4d606e;
 }
 
+.portfolio-description{
+    padding: 20px;
+    margin-left: 15px;
+}
 
 
 @media (max-width: 1250px){
@@ -167,6 +171,11 @@ h2, h3, h4, h5, h6, p{
 
     a{
         font-size: 0.75rem;
+    }
+
+    .portfolio-header{
+        font-size: 1.25rem;
+        color: #007bff;
     }
 
     .work-experience-text{
