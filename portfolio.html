@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <!--    Bootstrap CSS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+<!--JS Bootstrap Bundle-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+<!--    Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+<!--    <link rel="icon" href="images/faviconLC.ico">-->
+
+<!--    Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Oxygen&family=Parisienne&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--  #Font Awesome-->
+  <script src="https://kit.fontawesome.com/20f153e26c.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+<section id="title">
+
+<!--        Navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">Lydia</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+        <div class="collapse navbar-collapse" id="navbarToggler">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#about-me">About Me</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="portfolio.html">My Portfolio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#education">Education</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#journey">Journey</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact-me">Contact</a>
+            </li>
+        </ul>
+            </div>
+        </nav>
+    <!--Title section -->
+    <div class="card bg-light row">
+        <h1 class="col"><strong>My Portfolio</strong></h1>
+        <p class="card-body">Under Construction. This page will continue to update
+            as more portfolio projects are displayed.</p>
+    </div>
+
+    <div class="card text-center">
+            <div class="container">
+
+        <h5 class="card-header col-lg-6">
+            <a href="Top10MoviesProject.html">My Top 10 Movies Project</a></h5>
+    <ul class="card-body col-lg-6">
+        I completed this project using several tools in Python:
+        <li>Flask, Flask-WTF, wtforms, and Flask-Bootstrap to create
+            beautiful Bootstrapped HTML templates for the pages;
+        </li>
+        <li>Flask-SQLAlchemy to create the movie database
+        to add, save, update, and delete movies from the collection
+            of movies as well as to rank movies based on Ratings given to each movie;
+        </li>
+        <li>API requests from the Movie Database to search and get movie titles,
+            release dates, descriptions/overviews, and poster pictures to display
+            for each movie selected and added to the database.
+        </li>
+        Note: For the purpose of this portfolio, the buttons have been
+        inactivated and HTML code hardcoded.
+
+        In the original project, the templates would autogenerate
+        from the python code. The update buttons sent back information
+        to the Flask server about which movie was selected for update,
+        and redirect the user to the correct HTML page
+        to add or update their movie reviews and ratings for the movie selected.
+        The Add button lets the user call the Movie Database API to search
+        and get the list of movies with the same titles, from which
+        the user would select the right movie to add to the
+        database/collection. The Delete button is used to delete a movie from
+        the database if the user changes their mind.
+    </ul>
+    </div>
+        <div class="card text-center">
+
+
+        </div>
+</div>
+</section>
+
+<section class="card text-center">
+    <footer class="footer col-lg-12">
+      <div class="container">
+        <span class="text-muted">© 2021 Lydia Chao</span>
+      </div>
+    </footer>
+</section>
+</body>
+</html>
